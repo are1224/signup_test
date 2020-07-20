@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+    <title>sign up</title>
+    <meta charset="UTF-8"/>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'/>
+    <meta http-equiv="X-UACompatible" content='ie=edge'/>
+</head>
+<body>
+    <form action='' method='post'>
+        <label for="user_id">id : </label>
+        <br/>
+        <input type='text' id='user_id' placeholder='아이디를 입력해주세요' focus>
+        <br/>
+        <br/>
+        <label for="user_pwd">psssword : </label>
+        <br/>
+        <input type='text' id='user_pwd' name='pwd' placeholder='비밀번호를 입력해주세요'>
+        <br/>
+        <br/>
+        <label for='question'>비밀번호 질문 받기 : </label>
+        <br/>
+        <select id='question' name='pwd_question'>
+            <option value='고향'>내 고향은?</option>
+            <optino value='계절'>좋아하는 계절은?</optino>
+            <option value='과일'>좋아하는 과일은?</option>
+        </select>
+        <br/>
+        <br/>
+        <textarea name='content' cols='30' rows='30'>자기 소개문을 작성 해주세요.
+        </textarea>
+        <br/>
+        <input type="submit" name='submit' value='전송하기'>
+    </form>
+</body>
+</html>
